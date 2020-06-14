@@ -1,9 +1,9 @@
 const startTime = Date.now();
 
 const fs = require('fs');
-const logger = require('./logger');
+const logger = require('./src/logger');
 
-const analyzer = require('./analyzer');
+const analyzer = require('./src/analyzer');
 
 const content = fs.readFileSync('./a.txt', 'utf-8');
 
