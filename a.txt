@@ -1,0 +1,21 @@
+int function sala1m(int a, string b = 'salam'):
+return a;
+end function;
+
+string c = "sssss";
+int a = c;
+
+for i from 0 to 10:
+string j = 'ss';
+end for;
+
+if a == 3:
+  string bb = 'salam';
+else if a < 3:
+
+else:
+string j = 'salam';
+
+end if;
+
+int g = sala1m(1, 'salam');
